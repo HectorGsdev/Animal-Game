@@ -1,0 +1,57 @@
+.column7 {
+  float: left;
+  width: 14%;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+}
+
+.column3 {
+  float: left;
+  width: 33.33%;
+  clear: both;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.corners1 {
+  border-radius: 25px;
+  background: #d8b1f1;
+  padding: 20px;
+  width: 200px;
+  height: 45px;
+}
+
+.corners2 {
+  border-radius: 25px;
+  border: 2px solid #1dd497;
+  padding: 20px;
+  width: 200px;
+  height: 40px;
+}
+
+#rcorners3 {
+  border-radius: 25px;
+  background: url(paper.gif);
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: 200x;
+  height: 150px;
+}
+
+.flag {
+  width: 50px;
+  height: 35px;
+}
+
+.clearfix {
+  overflow: auto;
+}
